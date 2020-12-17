@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,body{
+    background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Poppins-Regular, sans-serif;
+}
+
+/** Menu card **/
+
+.card{
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: rgba(0,0,0,0.5) !important;
+}
+.card-header h3{
+    color: white;
+}
+
+.input-group-prepend span{
+    width: 50px;
+    background-color: #FFC312;
+    color: black;
+    border:0 !important;
+}
+
+input:focus{
+    outline: 0 0 0 0  !important;
+    box-shadow: 0 0 0 0 !important;
+
+}
+
+/** Boutton page assistant **/
+
+.boutton{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 13px;
+}
+
+/** page index **/
+
+.centrer {
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.centrer-simple {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fwhite{
+    color:white;
+}
+
+.container-login {
+    text-align: center;
+    height: 100vh;
+    align-content: center;
+}
+
+/** page technicien **/
+
+.hide{display: none;}
+
+.ident{
+    padding-top: 17%;
+    padding-bottom: auto;
+    padding-right: auto;
+    padding-left: auto;
+}
+
+.tableau{
+    padding-top: 5%;
+    padding-bottom: auto;
+    padding-right: auto;
+    padding-left: auto;
+}
+
+.tableaucache{
+    padding-top: 0%;
+    padding-bottom: auto;
+    padding-right: auto;
+    padding-left: auto;
+}
+
+.curseur{
+    cursor: grab;
+}
+
+.border {
+    padding: 10px 10px 0px 10px;
+}
+
+/*Page Admin*/
+
+label {
+    color: white;
+}
