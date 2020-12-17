@@ -1,0 +1,74 @@
+*{
+    font-family: Montserrat;
+}
+.home{
+    min-height: 30rem;
+    position: relative;
+    display: table;
+    width: 100%;
+    height: 100vh;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background: linear-gradient(90deg, rgba(1, 1, 1, 0.75) 0%, rgba(1, 1, 1, 0.75) 100%), url("../images/background.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titre {
+    color: #FFF;
+    font-weight: bold;
+}
+.t1{
+    font-size: 5.5rem;
+}
+.t2{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: #FFF;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.navbar-nav{
+    display: flex;
+    align-items: center;
+}
+
+.navbar{
+    background-color: transparent !important;
+}
+
+ul.navbar-nav > li.nav-item.active > a.nav-link {
+    color: #c3892a !important;
+    font-size: 23px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 0px 30px;
+}
+ul.navbar-nav > li.nav-item > a.nav-link:hover {
+    color: #c3892a !important;
+}
+
+ul.navbar-nav > li.nav-item > a.nav-link {
+    color: #e3b319 !important;
+    font-size: 23px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 0px 30px;
+}
+
+.btn2{
+    color: #FFF !important;
+}
+
+.fab, .fas{
+    padding: 1rem 1.5rem !important;
+}
+*:focus {
+    outline:none !important;
+    box-shadow: none !important;
+}
+
+
